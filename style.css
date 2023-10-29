@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+}
+.nav {
+  height: 100px;
+  background: aliceblue;
+}
+.nav span {
+  color: red;
+  text-transform: uppercase;
+  list-style-type: none;
+  font-size: 24px;
+}
+
+.banner {
+  min-height: calc(100vh - 100px);
+  background-color: rgba(0, 0, 0, 0.9);
+  color: white;
+}
+.banner .banner-heading {
+  color: red;
+  font-size: 30px;
+}
+.banner .banner-title {
+  font-size: 36px;
+}
+.banner .btn {
+  background: orangered;
+  color: white;
+}
